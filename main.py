@@ -3,6 +3,7 @@ import requests
 
 # Streamlit UI setup
 st.set_page_config(page_title="Hindu Mythology Agent", layout="centered")
+st.image("logo.png", width=200)
 st.title("Hindu Mythology Agent")
 
 # Initialize session state to store conversation history
